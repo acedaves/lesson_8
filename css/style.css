@@ -1,0 +1,324 @@
+/* &display=swap */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/* ================================================================ */
+
+.block-header {
+	color: white;
+	background-color: rgb(216, 0, 144);
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-left: 280px;
+}
+
+.block-column-two {
+	background-color: rgb(255, 179, 190);
+	max-width: 430px;
+	max-height: 625px;
+	margin-left: 915px;
+	margin-bottom: 80px;
+	margin-top: 50px;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.block-column-two::after {
+	content: "Michael J Fox";
+	display: inline-block;
+	font-size: 30px;
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.8);
+	padding-left: 90px;
+	margin: 10px;
+}
+
+.header-menu li {
+	font-family: "Comfortaa", cursive, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-shadow: 2px 2px 1px #000;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.header-menu li:hover {
+	text-shadow: none;
+	color: #000;
+}
+
+h1 {
+	font-family: "Righteous", cursive, sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #000;
+	margin-bottom: 15px;
+}
+
+h1 a:hover {
+	text-shadow: 1px 1px 30px rgb(239, 174, 255);
+}
+
+h1::after {
+	content: "";
+	display: block;
+	height: 2px;
+	max-width: 1350px;
+	margin: 11px 0 0 0;
+	background-color: rgb(255, 0, 51);
+}
+
+.block-main {
+	box-shadow: inset 1px 5px 10px rgb(73, 73, 73);
+	padding-left: 280px;
+	background-color: rgb(255, 240, 240);
+}
+
+.main-menu li {
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(41, 41, 41, 0.7);
+	display: inline-block;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 30px;
+	background: url(../img/arrowright.png) 0 20px / 20px 20px no-repeat;
+	margin-bottom: 50px;
+}
+
+.main-menu li:hover {
+	text-shadow: 1px 1px 1px rgba(41, 41, 41, 0.1);
+	text-decoration: underline;
+}
+
+.link-btf:visited {
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}
+
+h2 {
+	color: rgb(255, 0, 0);
+	font-family: "Faster One", cursive, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	text-shadow: 5px 5px 1px rgb(255, 180, 68);
+	margin-bottom: 30px;
+}
+
+h2::after {
+	content: "";
+	display: block;
+	height: 1px;
+	max-width: 930px;
+	margin: 25px 0 0 0;
+	background-color: rgb(204, 204, 204);
+}
+
+h4 {
+	color: rgb(236, 0, 158);
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+h4::before {
+	content: "";
+	display: inline-block;
+	background-color: #000;
+	box-shadow: 3px 3px 1px 1px rgb(255, 0, 0);
+	padding: 10px;
+	margin-right: 15px;
+}
+
+img {
+	max-width: 888px;
+	margin-bottom: 20px;
+}
+
+.link-story:visited {
+	background-color: orange;
+}
+
+.title2-list li {
+	display: inline-block;
+}
+
+.title2-list a {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: azure;
+	text-align: center;
+	text-shadow: 1px 1px 3px #000;
+	display: inline-block;
+	background-color: grey;
+	padding: 10px;
+	min-width: 150px;
+}
+
+.title2-list a:hover {
+	background-color: orange;
+}
+
+.block-main p {
+	color: rgb(56, 2, 2);
+	margin-bottom: 20px;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	padding: 15px;
+}
+
+.block-column {
+	background-color: white;
+	max-width: 930px;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+.block-column::first-line {
+	letter-spacing: 2px;
+}
+
+.block-column::first-letter {
+	font-size: 40px;
+	color: rgb(255, 134, 134);
+}
+
+.block-column h3 + p {
+	color: rgb(150, 150, 150);
+	font-size: 19px;
+	text-align: center;
+	font-style: oblique;
+}
+.block-column h3:first-child {
+	padding: 15px 0;
+	background-color: rgba(255, 0, 119, 0.7);
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-shadow: 3px 3px 1px rgb(80, 80, 80);
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.block-main h4:nth-last-of-type(1) {
+	background-color: rgba(255, 128, 234, 0.1);
+}
+
+.last-p + *:last-child {
+	margin-bottom: 0px;
+}
+
+.block-column p:nth-child(even) {
+	background-color: rgba(255, 102, 102, 0.1);
+}
+
+.block-column p:nth-child(odd) {
+	background-color: rgba(255, 203, 161, 0.3);
+}
+
+.num-list {
+	counter-reset: item;
+	box-shadow: 1px 1px 1px 1px #000;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.num-list li {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.num-list li:last-child {
+	margin-bottom: 0;
+}
+
+.num-list li::before {
+	counter-increment: item;
+	content: counter(item) " ->";
+	margin: 0px 10px 0px 0px;
+	color: red;
+}
+
+a:focus {
+	outline: 1px solid sandybrown;
+	border-radius: 3px;
+	padding: 5px;
+	box-shadow: inset 1px 1px 3px 1px #000;
+}
+
+a:active {
+	color: rgb(255, 86, 44);
+}
+
+.block-two-text {
+	display: none;
+}
+
+.block-two-text:target {
+	display: block;
+}
+
+.link-title-two {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 161, 208);
+	text-transform: uppercase;
+	box-shadow: 5px 5px 1px 1px #000;
+	padding: 15px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+
+.link-title-two:focus {
+	padding: 20px;
+}
+
+.link-title-two:hover {
+	color: rgb(255, 72, 0);
+}
+
+.footer-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-shadow: 3px 3px 1px rgba(146, 146, 146, 0.3);
+	margin-left: 200px;
+	color: white;
+}
+
+.footer-menu li:hover {
+	color: orange;
+}
+.footer-menu {
+	padding: 30px;
+	background-color: #000;
+}
+
+a.layouts {
+	border-bottom: 1px solid orangered;
+	padding-bottom: 5px;
+}
